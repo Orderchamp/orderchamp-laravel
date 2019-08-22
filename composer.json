@@ -1,0 +1,37 @@
+{
+  "name": "orderchamp/orderchamp-laravel",
+  "description": "Orderchamp Laravel package",
+  "homepage": "https://www.orderchamp.com",
+  "keywords": [
+    "orderchamp"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Orderchamp B.V.",
+      "email": "info@orderchamp.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "orderchamp/orderchamp-api-php": "^1.0"
+  },
+  "require-dev": {
+    "illuminate/support": "^5.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Orderchamp\\Laravel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Orderchamp\\Laravel\\OrderchampServiceProvider"
+      ],
+      "aliases": {
+        "Orderchamp": "Orderchamp\\Laravel\\Facades\\Orderchamp"
+      }
+    }
+  }
+}
