@@ -14,7 +14,7 @@
   ],
   "require": {
     "php": ">=7.2",
-    "orderchamp/orderchamp-api-php": "dev-laravel-8"
+    "orderchamp/orderchamp-api-php": "^1.1"
   },
   "require-dev": {
     "illuminate/support": "^5.8"
